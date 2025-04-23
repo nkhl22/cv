@@ -50,6 +50,29 @@
     .section {
       margin-bottom: 24px;
     }
+    .skill-bar {
+      width: 100%;
+      background-color: #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+      height: 20px;
+      margin-bottom: 10px;
+    }
+    .skill-bar-fill {
+      height: 100%;
+      text-align: right;
+      padding-right: 0.5rem;
+      color: white;
+      font-size: 0.8rem;
+      line-height: 20px;
+    }
+    .photoshop { width: 100%; background-color: #4CAF50; }
+    .illustrator { width: 100%; background-color: #FF9800; }
+    .lightroom { width: 75%; background-color: #03A9F4; }
+    .premiere { width: 75%; background-color: #E91E63; }
+    .word { width: 75%; background-color: #2196F3; }
+    .excel { width: 75%; background-color: #8BC34A; }
+    .vscode { width: 70%; background-color: #673AB7; }
   </style>
 </head>
 <body>
@@ -117,14 +140,13 @@
 
       <div class="section">
         <h3>SOFTWARE SKILLS</h3>
-        <ul>
-          <li>Photoshop</li>
-          <li>Illustrator</li>
-          <li>Lightroom</li>
-          <li>Premiere Pro</li>
-          <li>Word</li>
-          <li>Excel</li>
-        </ul>
+        <div class="skill-bar"><div class="skill-bar-fill photoshop">Photoshop - 100%</div></div>
+        <div class="skill-bar"><div class="skill-bar-fill illustrator">Illustrator - 100%</div></div>
+        <div class="skill-bar"><div class="skill-bar-fill lightroom">Lightroom - 75%</div></div>
+        <div class="skill-bar"><div class="skill-bar-fill premiere">Premiere Pro - 75%</div></div>
+        <div class="skill-bar"><div class="skill-bar-fill word">Word - 75%</div></div>
+        <div class="skill-bar"><div class="skill-bar-fill excel">Excel - 75%</div></div>
+        <div class="skill-bar"><div class="skill-bar-fill vscode">Visual Studio Code - 70%</div></div>
       </div>
 
       <div class="section">
